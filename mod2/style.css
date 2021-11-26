@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+  }
+
+  .row {
+    width: 100%;
+  
+  }
+
+h1 {
+    text-align: center;
+}
+
+
+.grey{
+    background-color: #bfbfbf;
+    border: 2px solid black;
+
+    margin-bottom: 10px;
+    padding: 40px 10px 5px 10px;
+    overflow: hidden;
+  }
+
+
+#container {
+    position: relative;
+    
+  }
+  
+  .food {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid black;
+
+  
+  }
+
+
+.chicken {
+    background-color: pink;
+}
+
+.beef {
+    background-color: tomato;
+    color: white;
+}
+
+.sushi {
+    background-color: wheat;
+}
