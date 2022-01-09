@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+  }
+
+  .row {
+    width: 100%;
+  
+  }
+
+h1 {
+    text-align: center;
+}
+
+
+.grey{
+    background-color: #bfbfbf;
+    border: 2px solid black;
+
+    margin-bottom: 10px;
+    padding: 40px 10px 5px 10px;
+    overflow: hidden;
+  }
+
+
+#container {
+    position: relative;
+    
+  }
+  
+  .food {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid black;
+
+  
+  }
+
+
+.chicken {
+    background-color: pink;
+}
+
+.beef {
+    background-color: tomato;
+    color: white;
+}
+
+.sushi {
+    background-color: wheat;
+}
+
+ #header-nav {
+  background-color: #bfbfbf;
+  border-radius: 1px;
+  border: 2px solid black;
+
+} 
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list li {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  border: 0.2px solid black;;
+  
+}
+
+#nav-list a {
+  color: black;
+  
+}
+
+#nav-list li:hover {
+  background-color: #eee1e1;
+}
+
+#nav-list a span {
+  font-size: 1.1em;
+}
+
+
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: #ffffff;
+  border-color: #fff;
+}
+
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
